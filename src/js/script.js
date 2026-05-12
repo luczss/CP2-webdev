@@ -8,7 +8,7 @@ const produtos = [
         nome:"Monkey D. Luffy",
         descricao:"Edição gear five com efeitos e base o NIKA ",
         preco:349.99,
-        
+        imgsrc:"../assets/71DUkhf8pQL.jpg",
     },
     {
         id:2,
