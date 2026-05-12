@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NerdShelf — Loja</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../src/css/style.css"/>
+</head>
+<body>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="overlay" id="overlay" onclick="fecharOverlay(event)">
+    <div class="drawer">
+      <div class="drawer-header">
+        <span class="drawer-titulo">Carrinho</span>
+        <button class="drawer-fechar" onclick="toggleDrawer()">✕</button>
+      </div>
+      <div class="drawer-itens" id="drawer-itens"></div>
+      <div class="drawer-footer" id="drawer-footer"></div>
+    </div>
+  </div>
+
+  <nav>
+    <a href="loja.html" class="nav-logo">Nerd<span>Shelf</span></a>
+    <ul class="nav-links">
+      <li><a href="loja.html" class="ativo">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+    <button class="nav-cart" onclick="toggleDrawer()">
+      Carrinho <span class="cart-badge" id="badge">0</span>
+    </button>
+  </nav>
+
+  <div class="hero">
+    <p class="hero-eyebrow">Coleção 2025</p>
+    <h1>Action<br><em>Figures</em></h1>
+    <p>As melhores figuras de ação do universo, direto pra sua prateleira.</p>
+    <div class="hero-divider"></div>
+  </div>
+
+  <section class="secao">
+    <div class="secao-header">
+      <span class="secao-titulo">Produtos</span>
+      <span class="secao-count" id="count-label">5 itens</span>
+    </div>
+    <div class="filtros" id="filtros"></div>
+    <div class="grid" id="grid-produtos"></div>
+  </section>
+
+  <footer>&copy; 2026 NerdShelf</footer>
