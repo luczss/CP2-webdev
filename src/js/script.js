@@ -204,7 +204,7 @@ function renderProdutos() {
     card.style.animationDelay = `${i * 0.07}s`;
     card.innerHTML = `
       <div class="card-img">
-        <img src="${p.img}" alt="${p.nome}" onerror="this.parentElement.innerHTML='<div class=\"card-img-placeholder\"></div>'"/>
+        <img src="${p.img}" alt="${p.nome}" onerror="this.style.display='none'"/>
       </div>
       <div class="card-body">
         <span class="card-badge">${p.badge}</span>
