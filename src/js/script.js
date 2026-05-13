@@ -24,22 +24,25 @@ const produtos = [
         nome:"Mestre Yoda",
         descricao:"Edição com sabre de luz removivel e base flutuante magnetica",
         preco:289.90,
+        img:"../src/assets/img/mestreyoda.jpg",
 
     },
     {
         id:4,
-        badge:"JoJo's Bizarre",
-        nome:"Jotaro Kujo",
-        descricao:"Edição especial, Jotaro Star Platinum, bone removivel",
+        badge:"Senhor dos Anéis",
+        nome:"Gandalf, o cinzento",
+        descricao:"Edição premium com espada Glamdring, cajado e base de rocha.",
         preco:449.99,
+        img:"../src/assets/img/gandalf.jpg",
 
     },
     {
         id:5,
         badge:"Marvel",
-        nome:"Thor Ragnarok",
-        descricao:"Edição com martelo mjolnir e capa removivel ",
+        nome:"Thor Gordo",
+        descricao:"Edição Endgame com Stormbreaker, óculos escuros e base de sofá inclusa",
         preco:279.90,
+        img:"../src/assets/img/thorgordo.jpg",
 
     }
 ];
