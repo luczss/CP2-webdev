@@ -61,7 +61,7 @@ CP2-main/
 ## 1. Clone o repositório
 
 ```bash
-git clone 
+git clone https://github.com/luczss/CP2.git
 ```
 
 ## 2. Abra a pasta do projeto
