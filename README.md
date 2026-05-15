@@ -91,8 +91,11 @@ O projeto foi criado com o objetivo de praticar:
 
 # 👨‍💻 Autor
 
-Projeto desenvolvido por Lucas Oliveira.
-
+Projeto desenvolvido por:
+Lucas Oliveira
+Gabriel Kenzo
+Enzo Leme
+Diego Ruffini
 ---
 
 # 📄 Licença
